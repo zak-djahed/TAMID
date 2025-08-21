@@ -27,7 +27,7 @@ These projects focus on portfolio construction, factor modeling, and optimizatio
 - **Part 2: Minimum-Variance Portfolio**
   - Used `scipy.optimize.minimize` to solve for the **global minimum variance portfolio** subject to weights summing to 1.
   - Compared its performance against the market portfolio (2018–2024).
-- **Key Insight:** Demonstrated how factor model-derived covariance matrices allow the construction of efficient portfolios that outperform naive diversification.
+- **Key Insight:** Demonstrated how factor model-derived covariance matrices allow construction of efficient portfolios that outperform naive diversification.
 
 ---
 
@@ -46,6 +46,13 @@ These projects focus on portfolio construction, factor modeling, and optimizatio
 
 ---
 
+### 4. **Portfolio Dashboard**
+- [**View Repo**](https://github.com/zak-djahed/TAMID_Portfolio_Dashboard)  
+- **Description:** A lightweight dashboard that displays quick price data for a sample of blue-chip stocks, including Apple (AAPL), Microsoft (MSFT), and Tesla (TSLA).  
+- **Purpose:** Serves as a convenient front-end tool for tracking real-time movements of major equities alongside deeper quantitative research from the projects above.
+
+---
+
 ## 🧪 Tech Stack
 - **Languages:** Python (3.11)  
 - **Libraries:** `pandas`, `numpy`, `matplotlib`, `statsmodels`, `scipy`, `yfinance`
@@ -57,3 +64,10 @@ These projects focus on portfolio construction, factor modeling, and optimizatio
    ```bash
    git clone https://github.com/zak-djahed/TAMID.git
    cd TAMID
+2. Create environment & install dependencies:
+  python3 -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+3. Open any notebook:
+   jupyter notebook homework_X.ipynb
+
