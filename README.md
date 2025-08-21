@@ -1,1 +1,59 @@
 # TAMID
+
+A collection of quantitative finance projects completed as part of TAMID at the University of Miami.  
+These projects focus on portfolio construction, factor modeling, and optimization techniques inspired by modern asset pricing theory.
+
+---
+
+## 📚 Projects
+
+### 1. **Homework 2 — Beta, Size, and Portfolio Sorting**
+- **Objective:** Test whether stock beta is a significant predictor of returns by constructing portfolios sorted on **beta** and then further on **size**.  
+- **Process:**
+  - Collected 500 stocks from a chosen index (2021–2023).
+  - Estimated **betas** using linear regression against the market.
+  - Sorted into quintiles by beta, then further into quintiles by **market capitalization (size)**.
+  - Tracked performance of these double-sorted portfolios over 2024–present.
+- **Key Insight:** Connects directly to the Fama–French framework — evaluating whether returns are driven by beta or by other shared characteristics such as firm size.
+
+---
+
+### 2. **Homework 3 — Factor Models and Portfolio Optimization**
+- **Objective:** Apply factor models to construct covariance matrices, then use them for **portfolio optimization**.  
+- **Part 1: Monte Carlo Simulation**
+  - Selected 20 stocks and estimated their historical expected returns & variances.
+  - Generated **10,000 random portfolios** with weights summing to 1.
+  - Plotted the **risk-return frontier**, showing the parabolic efficient frontier shape.
+- **Part 2: Minimum-Variance Portfolio**
+  - Used `scipy.optimize.minimize` to solve for the **global minimum variance portfolio** subject to weights summing to 1.
+  - Compared its performance against the market portfolio (2018–2024).
+- **Key Insight:** Demonstrated how factor model-derived covariance matrices allow the construction of efficient portfolios that outperform naive diversification.
+
+---
+
+### 3. **Homework 4 — Testing Optimized vs Random Portfolios**
+- **Objective:** Evaluate whether optimized portfolios actually outperform naive/random portfolios in practice.  
+- **Process:**
+  - Selected 5 sets of 20 stocks (2016–2020 or later).
+  - Constructed and compared:
+    - **Equal-weighted (1/n) portfolios**
+    - **Random-weight portfolios**
+    - **Minimum-variance portfolios**
+    - **Mean-variance portfolios**
+    - **Max-Sharpe portfolios**
+  - Plotted risk-return outcomes for each across multiple subsets.
+- **Key Insight:** Explored whether optimization techniques consistently generate superior portfolios compared to simple random or equal-weight strategies.
+
+---
+
+## 🧪 Tech Stack
+- **Languages:** Python (3.11)  
+- **Libraries:** `pandas`, `numpy`, `matplotlib`, `statsmodels`, `scipy`, `yfinance`
+
+---
+
+## ▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zak-djahed/TAMID.git
+   cd TAMID
