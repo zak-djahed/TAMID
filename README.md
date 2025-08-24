@@ -7,7 +7,7 @@ These projects focus on portfolio construction, factor modeling, and optimizatio
 
 ## 📚 Projects
 
-### 1. **Homework 2 — Beta, Size, and Portfolio Sorting**
+### 1. **Beta, Size, and Portfolio Sorting**
 - **Objective:** Test whether stock beta is a significant predictor of returns by constructing portfolios sorted on **beta** and then further on **size**.  
 - **Process:**
   - Collected 500 stocks from a chosen index (2021–2023).
@@ -18,7 +18,7 @@ These projects focus on portfolio construction, factor modeling, and optimizatio
 
 ---
 
-### 2. **Homework 3 — Factor Models and Portfolio Optimization**
+### 2. **Factor Models and Portfolio Optimization**
 - **Objective:** Apply factor models to construct covariance matrices, then use them for **portfolio optimization**.  
 - **Part 1: Monte Carlo Simulation**
   - Selected 20 stocks and estimated their historical expected returns & variances.
@@ -31,7 +31,7 @@ These projects focus on portfolio construction, factor modeling, and optimizatio
 
 ---
 
-### 3. **Homework 4 — Testing Optimized vs Random Portfolios**
+### 3. **Testing Optimized vs Random Portfolios**
 - **Objective:** Evaluate whether optimized portfolios actually outperform naive/random portfolios in practice.  
 - **Process:**
   - Selected 5 sets of 20 stocks (2016–2020 or later).
