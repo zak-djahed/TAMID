@@ -2,3 +2,4 @@ venv/
 ENV/
 env/
 .venv/
+venv_f25/
