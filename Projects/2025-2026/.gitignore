@@ -1,0 +1,8 @@
+venv/
+ENV/
+env/
+.venv/
+venv_f25/
+.DS_Store
+OPPRCD_SPX/
+Options_Data_Zip/
