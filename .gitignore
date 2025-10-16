@@ -3,3 +3,4 @@ ENV/
 env/
 .venv/
 venv_f25/
+.DS_Store
