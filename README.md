@@ -46,7 +46,20 @@ These projects focus on portfolio construction, factor modeling, and optimizatio
 
 ---
 
-### 4. **Portfolio Dashboard**
+### 4. **Options Backtesting System**
+- [**View Project**](https://github.com/zak-djahed/TAMID/tree/main/Projects/2025-2026/options-backtester)  
+- **Objective:** Build an end-to-end options research pipeline enabling fully automated and repeatable strategy testing on SPX data.
+- **Process:**
+  - Designed a systematic **delta-neutral volatility strategy** that shorts options when implied volatility exceeds realized volatility and hedges dynamically.
+  - Incorporated realistic trading mechanics: transaction costs, delta hedging, and position-level risk tracking.
+  - Engineered a Greeks calculation engine (Black-Scholes delta, gamma, theta, vega) and aligned all signals to end-of-day realized volatility.
+- **Key Results:**
+  - Generated **$59K+ in cumulative PnL** and **$159K in equity** over the backtest period.
+  - Produced a reusable framework for testing any volatility-based options strategy with full audit trail.
+
+---
+
+### 5. **Portfolio Dashboard**
 - [**View Repo**](https://github.com/zak-djahed/TAMID_Portfolio_Dashboard)  
 - **Description:** A lightweight dashboard that displays quick price data for a sample of blue-chip stocks, including Apple (AAPL), Microsoft (MSFT), and Tesla (TSLA).  
 - **Purpose:** Serves as a convenient front-end tool for tracking real-time movements of major equities alongside deeper quantitative research from the projects above.
@@ -55,7 +68,7 @@ These projects focus on portfolio construction, factor modeling, and optimizatio
 
 ## 🧪 Tech Stack
 - **Languages:** Python (3.11)  
-- **Libraries:** `pandas`, `numpy`, `matplotlib`, `statsmodels`, `scipy`, `yfinance`
+- **Libraries:** `pandas`, `numpy`, `matplotlib`, `statsmodels`, `scipy`, `yfinance`, `py_vollib`, `yahooquery`
 
 ---
 
